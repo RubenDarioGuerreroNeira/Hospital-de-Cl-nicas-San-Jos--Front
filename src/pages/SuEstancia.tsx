@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
-import Navbar from '../components/layout/Navbar';
-import Footer from '../components/layout/Footer';
+
 
 // Datos para la sección de habitaciones
 const roomTypes = [
@@ -118,7 +117,7 @@ const additionalServices = [
 const SuEstancia = () => {
   return (
     <>
-      <Navbar />
+
 
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-[#156582] to-[#2c8cb0] text-white py-20">
@@ -382,7 +381,7 @@ const SuEstancia = () => {
         </div>
       </section>
 
-      <Footer />
+
     </>
   );
 };

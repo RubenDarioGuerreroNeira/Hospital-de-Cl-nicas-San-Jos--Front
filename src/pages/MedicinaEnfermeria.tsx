@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
-import Navbar from '../components/layout/Navbar';
-import Footer from '../components/layout/Footer';
+
 
 // Animación para elementos que aparecen al hacer scroll
 const fadeInUp = {
@@ -69,7 +68,7 @@ const featuredStaff = [
 const MedicinaEnfermeria = () => {
   return (
     <>
-      <Navbar />
+
 
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-[#156582] to-[#2c8cb0] text-white py-20">
@@ -320,7 +319,7 @@ const MedicinaEnfermeria = () => {
         </div>
       </section>
 
-      <Footer />
+
     </>
   );
 };

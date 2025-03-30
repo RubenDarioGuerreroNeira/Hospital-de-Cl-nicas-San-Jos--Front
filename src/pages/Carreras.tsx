@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
-import Navbar from '../components/layout/Navbar';
-import Footer from '../components/layout/Footer';
+
 
 // Datos de posiciones abiertas
 const openPositions = [
@@ -156,7 +155,6 @@ const testimonials = [
 const Carreras = () => {
   return (
     <>
-      <Navbar />
 
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-[#156582] to-[#2c8cb0] text-white py-20">
@@ -455,7 +453,7 @@ const Carreras = () => {
         </div>
       </section>
 
-      <Footer />
+
     </>
   );
 };
