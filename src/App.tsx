@@ -10,25 +10,30 @@ import SuEstancia from './pages/SuEstancia';
 import Home from './pages/Home';
 import Navbar from './components/layout/Navbar';
 
+
 function App() {
   return (
-    <Router>
-      <div className="font-sans">
-        <Navbar />
-        <main>
+    <div className="pt-[60px] md:pt-[72px]">
+      <Router>
+        <div className="font-sans">
+          <Navbar />
+          <main>
 
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/su-estancia" element={<SuEstancia />} />
-            <Route path="/carreras" element={<Carreras />} />
-            <Route path="/medicina-enfermeria" element={<MedicinaEnfermeria />} />
-            <Route path="/especialidades" element={<Specialties />} />
-          </Routes>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/su-estancia" element={<SuEstancia />} />
+              <Route path="/carreras" element={<Carreras />} />
+              <Route path="/medicina-enfermeria" element={<MedicinaEnfermeria />} />
+              <Route path="/especialidades" element={<Specialties />} />
 
-        </main>
-        <Footer />
-      </div>
-    </Router>
+
+            </Routes>
+
+          </main>
+          <Footer />
+        </div>
+      </Router>
+    </div>
   );
 }
 export default App;
