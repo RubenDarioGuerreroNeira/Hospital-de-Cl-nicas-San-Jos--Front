@@ -109,16 +109,16 @@ const Navbar = () => {
                         </div>
 
                         {/* Action Buttons */}
-                        <div className="flex space-x-3">
+                        <div className="flex flex-col space-y-3">
                             <Link
                                 to="/emergencia"
-                                className="bg-gradient-to-r from-red-600 to-red-500 text-white px-4 py-2 rounded-md font-medium shadow-sm hover:shadow-md transition-all duration-200 hover:-translate-y-0.5"
+                                className="bg-red-600 text-white px-2.5 py-0.5 rounded-sm text-xs font-medium hover:bg-red-700 transition-colors duration-200"
                             >
                                 EMERGENCIA
                             </Link>
                             <Link
                                 to="/consultas"
-                                className="bg-gradient-to-r from-[#2563eb] to-[#3b82f6] text-white px-4 py-2 rounded-md font-medium shadow-sm hover:shadow-md transition-all duration-200 hover:-translate-y-0.5"
+                                className="bg-blue-600 text-white px-2.5 py-0.5 rounded-sm text-xs font-medium hover:bg-blue-700 transition-colors duration-200"
                             >
                                 CONSULTAS
                             </Link>
@@ -183,13 +183,14 @@ const Navbar = () => {
                         <div className="flex flex-col space-y-2 pt-4">
                             <Link
                                 to="/emergencia"
-                                className="bg-gradient-to-r from-red-600 to-red-500 text-white px-4 py-2 rounded-md font-medium text-center shadow-sm hover:shadow-md transition-all duration-200"
+                                className="bg-gradient-to-r from-[#2563eb] to-[#3b82f6] text-white px-3 py-1.5 rounded-md text-sm font-medium text-center shadow-sm hover:shadow-md transition-all duration-200"
+
                             >
                                 EMERGENCIA
                             </Link>
                             <Link
                                 to="/consultas"
-                                className="bg-gradient-to-r from-[#2563eb] to-[#3b82f6] text-white px-4 py-2 rounded-md font-medium text-center shadow-sm hover:shadow-md transition-all duration-200"
+                                className="bg-gradient-to-r from-[#2563eb] to-[#3b82f6] text-white px-3 py-1.5 rounded-md text-sm font-medium text-center shadow-sm hover:shadow-md transition-all duration-200"
                             >
                                 CONSULTAS
                             </Link>
