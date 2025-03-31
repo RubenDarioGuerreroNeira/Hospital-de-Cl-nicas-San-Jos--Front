@@ -109,7 +109,7 @@ const Navbar = () => {
                         </div>
 
                         {/* Action Buttons */}
-                        <div className="flex space-x-3">
+                        <div className="flex flex-col space-y-2">
                             <Link
                                 to="/emergencia"
                                 className="bg-red-600 text-white px-4 py-2 rounded text-sm font-medium hover:bg-red-700 transition-colors duration-200 text-center"

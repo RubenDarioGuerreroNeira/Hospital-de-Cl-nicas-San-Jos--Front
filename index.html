@@ -5,6 +5,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title> Hospital de Clinícas San Jose </title>
+
+  <script>
+    // En el head de tu HTML
+    (function () {
+      const savedTheme = localStorage.getItem('theme')
+      const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches
+
+      if (savedTheme === 'dark' || (!savedTheme && systemTheme)) {
+        document.documentElement.classList.add('dark')
+      }
+    })()
+  </script>
+
 </head>
 
 <body>

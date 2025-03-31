@@ -1,4 +1,15 @@
-# Hospital San José - Sitio Web Institucional
+# Hospital San José - Sitio 
+Web Institucional
+
+### Página de Inicio
+![Página de Inicio](./src/assets/Inicio.png)
+
+### Sección de Estancia
+![Sección de Estancia](./src/assets/Estancia.png)
+
+### Servicios Médicos
+![Servicios Médicos](./src/assets/Servicios%20Médicos.png)
+
 
 ## 📋 Descripción
 
