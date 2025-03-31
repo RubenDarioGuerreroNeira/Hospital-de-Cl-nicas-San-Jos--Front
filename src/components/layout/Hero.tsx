@@ -3,8 +3,8 @@ import ImageCarousel from '../ui/ImageCarousel';
 
 // Imágenes para el carrusel
 const carouselImages = [
-  "https://images.unsplash.com/photo-1585435557343-3b092031a831?q=80&w=2070&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=2232&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://plus.unsplash.com/premium_photo-1681995284211-b0ea14a73cbc?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=2880&auto=format&fit=crop"
 ];
 

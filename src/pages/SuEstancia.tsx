@@ -7,14 +7,14 @@ const roomTypes = [
     id: 1,
     type: 'Habitación Individual',
     description: 'Espacio privado con todas las comodidades para garantizar una estancia tranquila y confortable.',
-    image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2053&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1670665352618-49ae2ae914ff?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     amenities: ['Baño privado', 'TV Smart', 'Wi-Fi', 'Aire acondicionado', 'Cama ajustable eléctrica', 'Sistema de llamada a enfermería']
   },
   {
     id: 2,
     type: 'Habitación Doble',
     description: 'Espaciosa habitación compartida, diseñada para proporcionar confort y privacidad a dos pacientes.',
-    image: 'https://images.unsplash.com/photo-1512678080530-7760d81faba6?q=80&w=2074&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1613377512409-59c33c10c821?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     amenities: ['Baño compartido', 'TV por paciente', 'Wi-Fi', 'Aire acondicionado', 'Cortinas divisorias', 'Sistema de llamada a enfermería']
   },
   {

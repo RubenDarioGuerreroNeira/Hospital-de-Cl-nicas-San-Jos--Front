@@ -1,50 +1,118 @@
-# React + TypeScript + Vite
+# Hospital San José - Sitio Web Institucional
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📋 Descripción
 
-Currently, two official plugins are available:
+Sitio web oficial del Hospital San José de las Hermanas del Redentor. Una plataforma digital moderna y accesible que proporciona información sobre servicios médicos, facilita la gestión de citas y ofrece recursos para pacientes y profesionales de la salud.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Características Principales
 
-## Expanding the ESLint configuration
+- 🏥 Información institucional completa
+- 🚑 Sistema de emergencias
+- 📅 Gestión de consultas médicas
+- 💉 Información sobre especialidades médicas
+- 🎓 Sección de Escuela de Enfermería
+- 🌙 Modo oscuro/claro
+- 📱 Diseño responsivo
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🛠️ Tecnologías Utilizadas
 
-- Configure the top-level `parserOptions` property like this:
+- React.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- React Router DOM
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📦 Requisitos Previos
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- Node.js (versión 14.0 o superior)
+- npm o yarn
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🚀 Instalación
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+1. Clonar el repositorio
+
+```bash
+git clone https://github.com/[usuario]/hospital-san-jose.git
+Copy
+Insert
+
+Instalar dependencias
+cd hospital-san-jose
+npm install
+# o
+yarn install
+Copy
+Insert
+
+Iniciar el servidor de desarrollo
+npm run dev
+# o
+yarn dev
+Copy
+Insert
+
+🏗️ Estructura del Proyecto
+hospital-san-jose/
+├── src/
+│   ├── components/
+│   │   ├── Navbar/
+│   │   ├── ThemeToggle/
+│   │   └── ...
+│   ├── pages/
+│   │   ├── Home/
+│   │   ├── Emergency/
+│   │   ├── Appointments/
+│   │   └── ...
+│   ├── assets/
+│   ├── styles/
+│   └── utils/
+├── public/
+└── ...
+Copy
+Insert
+
+📱 Responsive Design
+El sitio web está optimizado para diferentes dispositivos:
+
+📱 Móvil: < 640px
+📱 Tablet: 768px - 1024px
+💻 Desktop: > 1024px
+🎨 Temas
+El sitio incluye dos temas:
+
+☀️ Modo Claro
+🌙 Modo Oscuro
+🔐 Rutas Principales
+/ - Inicio
+/su-estancia - Información para pacientes
+/carreras - Programas educativos
+/nuestro-hospital - Información institucional
+/medicina-enfermeria - Escuela de Enfermería
+/especialidades - Especialidades médicas
+/emergencia - Servicios de emergencia
+/consultas - Gestión de citas
+🤝 Contribución
+Si deseas contribuir al proyecto:
+
+Haz un Fork del repositorio
+Crea una rama para tu feature (git checkout -b feature/AmazingFeature)
+Commit tus cambios (git commit -m 'Add some AmazingFeature')
+Push a la rama (git push origin feature/AmazingFeature)
+Abre un Pull Request
+📄 Licencia
+Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE.md para más detalles.
+
+📞 Contacto
+Email: contacto@hospitalsanjose.com
+Tel: (123) 456-7890
+⚡ Performance
+El sitio web está optimizado para:
+
+Carga rápida de páginas
+SEO
+Accesibilidad
+Rendimiento en dispositivos móviles
+🔄 Estado del Proyecto
+Desarrollado con ❤️ por el equipo de desarrollo del Hospital San José
+
 ```

@@ -14,28 +14,28 @@ const departments = [
     id: 1,
     name: 'Cardiología',
     description: 'Diagnóstico y tratamiento de enfermedades del corazón con tecnología de vanguardia.',
-    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1460672985063-6764ac8b9c74?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     procedures: ['Ecocardiografía', 'Prueba de esfuerzo', 'Cateterismo cardíaco', 'Monitorización Holter']
   },
   {
     id: 2,
     name: 'Neurología',
     description: 'Especialistas en el diagnóstico y tratamiento de trastornos del sistema nervioso.',
-    image: 'https://images.unsplash.com/photo-1559757175-7b21e5afae2a?q=80&w=2071&auto=format&fit=crop',
+    image: 'https://plus.unsplash.com/premium_photo-1664474849216-f2e6102c3575?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     procedures: ['Electroencefalograma', 'Resonancia magnética cerebral', 'Punción lumbar', 'Evaluación cognitiva']
   },
   {
     id: 3,
     name: 'Pediatría',
     description: 'Atención médica integral y especializada para bebés, niños y adolescentes.',
-    image: 'https://images.unsplash.com/photo-1581594549595-35f6edc7b762?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://plus.unsplash.com/premium_photo-1681995284211-b0ea14a73cbc?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     procedures: ['Revisiones pediátricas', 'Vacunación', 'Evaluación del desarrollo', 'Tratamiento de enfermedades infantiles']
   },
   {
     id: 4,
     name: 'Traumatología',
     description: 'Tratamiento de lesiones y trastornos del sistema musculoesquelético.',
-    image: 'https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1530497610245-94d3c16cda28?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     procedures: ['Artroscopia', 'Rehabilitación física', 'Cirugía ortopédica', 'Tratamiento de fracturas']
   }
 ];
@@ -60,7 +60,7 @@ const featuredStaff = [
     id: 3,
     name: 'Enfermera Ana López',
     role: 'Supervisora de Enfermería',
-    image: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=2264&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     bio: 'Más de 20 años dedicados a la enfermería y a la formación de nuevos profesionales.'
   }
 ];
